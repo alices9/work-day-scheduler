@@ -17,6 +17,7 @@ $(".description").each(function() {
 )
 
 $(".saveBtn").on("click", function(){
-    // var task = $(".description").val();
     localStorage.setItem("task", $(".description").val());
 })
+
+$(".description").val(localStorage.getItem("task"));

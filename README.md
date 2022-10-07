@@ -12,4 +12,4 @@ https://alices9.github.io/work-day-scheduler/
 
 User can click on the text area to insert text and hit the save button to save the information to local storage. Upon page reload, the previously saved text will appear.
 
-
+<img src="./Images/wds.png" alt="screenshot of the work day scheduler">
