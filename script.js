@@ -1,5 +1,5 @@
 
-var todaysDate = moment().format("MMM Do YY");
+var todaysDate = moment().format("dddd, MMM Do, YYYY");
 $("#currentDay").text(todaysDate);
 
 var currentHour = moment().hour();
@@ -15,3 +15,8 @@ $(".description").each(function() {
         $(this).addClass("future");}
 }
 )
+
+$(".saveBtn").on("click", function(){
+    // var task = $(".description").val();
+    localStorage.setItem("task", $(".description").val());
+})
